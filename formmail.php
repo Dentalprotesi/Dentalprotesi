@@ -1,8 +1,8 @@
 <?php
 // Recupero i valori inseriti nel form
-$name = $_POST['nome'];
+$name = $_POST['name'];
 $email = $_POST['email'];
-$message = $_POST['msg'];
+$message = $_POST['message'];
 
 // compilo un messaggio combinando i dati recuperati dal form
 $testo = "Nome: " . $name . "\n"

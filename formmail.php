@@ -1,13 +1,13 @@
 <?php
 // Recupero i valori inseriti nel form
-$nome = $_POST['nome'];
+$name = $_POST['nome'];
 $email = $_POST['email'];
-$msg = $_POST['msg'];
+$message = $_POST['msg'];
 
 // compilo un messaggio combinando i dati recuperati dal form
-$testo = "Nome: " . $nome . "\n"
+$testo = "Nome: " . $name . "\n"
        . "Email: " . $email . "\n"
-       . "Messaggio:\n" . $msg;
+       . "Messaggio:\n" . $message;
 
 // uso la funzione mail di PHP per inviare questi dati al mio indirizzo di posta
 mail('lucabee@libero.it', 'Messaggio dal mio sito web', $testo);

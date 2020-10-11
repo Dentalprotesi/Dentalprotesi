@@ -27,7 +27,7 @@ $testo = "Nome: " . $name . "\n"
        . "Messaggio: " . $message;
 
 // uso la funzione mail di PHP per inviare questi dati al mio indirizzo di posta
-mail('pacchiarotti@gmail.com', 'Mail da Corsi Excel Roma', $testo);
+mail('lucabee@libero.it', 'Mail dal tuo sito', $testo);
 
 // Mostro un messaggio di conferma all'utente
 print "<body>

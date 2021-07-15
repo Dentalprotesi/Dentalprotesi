@@ -1,0 +1,4 @@
+AuthName "Section name"
+AuthType Basic
+AuthUserFile https://dentalprotesi.github.io/prova/.htpasswd
+Require valid-user
